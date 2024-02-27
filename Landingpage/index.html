@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.ars.com</title>
+    <link rel="shortcut icon" type="image/png" href="/Common Files/image/favicon.png">
+    <link rel="stylesheet" href="/Common Files/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="header.css">
+	<link rel="stylesheet" href="mens.css" />
+    <link rel="shortcut icon" type="image/png" href="../Common Files/image/favicon.png">
+    <link rel="stylesheet" href="../Common Files/style.css">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/72215895a8.js" crossorigin="anonymous"></script>
+    <style>
+        #section_1 img{
+            width: unset;
+        }
+        ol > li > span{
+            color: #505050;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="../Common Files/image/ARS.png" alt="brandLogo" id="landingPage">
+        </div>
+        <ul id="nav_bar">
+            <li id="megamenu_container"><a href="../Homepages/menHomePage.html">men</a></li>
+            <li><a href="../Homepages/womenHomePage.html">women</a></li>
+            
+        </ul> 
+       
+        <div id="right_icon">
+            <div id="reggDropdown">
+                
+              <div id="drop">
+                  <a href="../Profile/profile.html" class="dropList">login</a>
+                  <a href="../Profile/signup.html" class="dropList">sign up</a>
+              </div>
+
+              <i class="fa-regular fa-user"></i>
+              <span>profile</span>
+          </div>
+            <div>
+                <i class="fa-regular fa-heart"></i>
+                <span>wishlist</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span>bag</span>
+            </div>
+        </div>
+                   
+                   <div id="toggle">
+                    <i class='bx bx-menu dropbtn' onclick="myFunction()"></i>
+                    <div id="myDropdown" class="dropdown-content">
+                        <div class="top">
+                            <a href="../Homepages/menHomePage.html">men</a>
+                            <a href="../Homepages/womenHomePage.html">women</a>
+                           
+                          
+                        </div>
+                        <div class="bottom">
+                            <i class="fa-regular fa-user fa_user" id="profile"></i>
+                            <i class="fa-regular fa-heart fa_wishlist"></i>
+                            <i class="fa-solid fa-bag-shopping fa_cart"></i>
+                        </div>               
+                    </div>
+                </div>
+    </header>
+
+    
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <div class="slide first">
+                 <img src="../Common Files/image/img1.jpg"
+                alt="">
+            </div>
+            <div class="slide">
+                <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/3/17/1439d458-3f9b-4a49-830c-a47a126bb9311647456798699-Roadster_Desk_Banner.jpg"
+                alt="">
+            </div>
+            <div class="slide">
+                <img src="../Common Files/image/img2.jpg"
+                alt="">
+            </div>
+        </div>
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            
+        </div>
+    </div>
+    <h1>DEALS OF THE DAY</h1>
+    <div id="deals">
+    </div>
+    <h1>BEST EXCLUSIVE BRANDS</h1>
+    <div id="best">
+    </div>
+    <h1>TOP PICKS</h1>
+    <div id="top">
+    </div>
+      
+         
+          <footer>
+            <section id="section_1">
+                <div id="left">
+                    <div>
+                        <h4>online shopping</h4>
+                        <p>men</p>
+                        <p>women</p>
+                    </div>
+                    <div>
+                      <h4>useful links</h4>
+                      <p>men</p>
+                      <p>faq</p>
+                      <p>t&c</p>
+                      <p>terms of use</p>
+                      <p>track order</p>
+                      <p>shipping</p>
+                      <p>cancellation</p>
+                      <p>returns</p>
+                      
+                    </div>
+                    <div>
+                        <h4>experience app on mobile</h4>
+                        <img src="https://bit.ly/3LluZ4L" alt="android">
+                        <img src="https://bit.ly/3DmWQys" alt="ios">
+                        <h4 id="social_connect">keep in touch</h4>
+                        <div>
+                          <i class="fa-brands fa-facebook-square"></i>
+                          <i class="fa-brands fa-twitter-square"></i>
+                          <i class="fa-brands fa-youtube"></i>
+                          <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div id="right">
+                    <div>
+                        <img src="https://bit.ly/3JPiL47" alt="original">
+                        <p> <span>100% ORIGINAL</span> guarantee for all products at ars.com</p>
+                    </div>
+                </div>
+            </section>
+          
+        </footer>
+</body>
+
+</html>
+<script src="deals.js"></script>
+<script src="/Common Files/headerMenu.js"></script>
+<script src="/Common Files/corousel.js"></script>
+<script src="../Common Files/hyperlinks.js"></script>
